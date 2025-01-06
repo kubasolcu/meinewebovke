@@ -4,7 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <style>table {
+        border: 2px solid black; /* Okraj tabulky */
+        border-collapse: collapse; /* Spojí okraje buněk */
+        background-color: #f2f2f2; /* Barevné pozadí tabulky */
+      }
+      
+      th, td {
+        padding: 8px; /* Okraje buněk */
+        text-align: left; /* Zarovnání textu */
+        border: 1px solid #ddd; /* Okraje buněk */
+      }
+      
+      table tr:nth-child(even) {
+        background-color: #e6e6e6; /* Střídavé pozadí pro řádky */
+      }
+      
+      table tr:hover {
+        background-color: #ddd; /* Zvýraznění při najetí myší */
+      }</style>
 </head>
+
 <body>
     <table>
         <thead>
