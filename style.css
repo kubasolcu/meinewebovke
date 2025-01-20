@@ -14,7 +14,7 @@
   
   .image {
     width: 33.33%;  /* Každý obrázek bude zabírat třetinu šířky obrazovky */
-    height: 100%;  /* Obrázky budou mít výšku 100% obrazovky */
-    object-fit: cover;  /* Obrázky se přizpůsobí velikosti, aby vyplnily prostor, aniž by se deformovaly */
+    height: 33%;  /* Obrázky budou mít výšku 100% obrazovky */
+    
   }
   
