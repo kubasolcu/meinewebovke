@@ -2,3 +2,19 @@
     width: 100%;
     height: auto;
 }
+
+.image-container {
+    display: flex;  /* Používáme flexbox pro rozložení obrázků */
+    justify-content: space-between;  /* Mezi obrázky bude rovnoměrný prostor */
+    width: 100vw;  /* Celá šířka obrazovky */
+    height: 100vh;  /* Celá výška obrazovky */
+    margin: 0;  /* Odstraní defaultní margin */
+    padding: 0;  /* Odstraní defaultní padding */
+  }
+  
+  .image {
+    width: 33.33%;  /* Každý obrázek bude zabírat třetinu šířky obrazovky */
+    height: 100%;  /* Obrázky budou mít výšku 100% obrazovky */
+    object-fit: cover;  /* Obrázky se přizpůsobí velikosti, aby vyplnily prostor, aniž by se deformovaly */
+  }
+  
