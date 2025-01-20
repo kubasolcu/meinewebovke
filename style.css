@@ -6,8 +6,8 @@
 .image-container {
     display: flex;  /* Používáme flexbox pro rozložení obrázků */
     justify-content: space-between;  /* Mezi obrázky bude rovnoměrný prostor */
-    width: 100vw;  /* Celá šířka obrazovky */
-    height: 100vh;  /* Celá výška obrazovky */
+    width: 33%;  /* Celá šířka obrazovky */
+    height: auto;  /* Celá výška obrazovky */
     margin: 0;  /* Odstraní defaultní margin */
     padding: 0;  /* Odstraní defaultní padding */
   }
