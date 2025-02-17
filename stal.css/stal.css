@@ -1,0 +1,66 @@
+/* Nastavení celé stránky */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    background: url('stalingrad-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+}
+
+/* Kontejner pro text */
+.container {
+    background: rgba(0, 0, 0, 0.6); /* Poloprůhledné pozadí */
+    padding: 50px;
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Nadpisy */
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-style: italic;
+    color: #ffcc00;
+}
+
+/* Obsah textu */
+.content {
+    text-align: left;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #ffcc00;
+    margin-top: 20px;
+}
+
+p, ul {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Styl pro odkaz zpět */
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background: #ff5733;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.back-button:hover {
+    background: #ff2a00;
+}
