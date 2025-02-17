@@ -1,5 +1,6 @@
 /* Nastavení celé stránky */
 body {
+    background-image: url("https://www.gamepark.cz/img/pictures/00/12/98/129858.jpg");
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -63,4 +64,5 @@ p, ul {
 
 .back-button:hover {
     background: #ff2a00;
+    
 }
