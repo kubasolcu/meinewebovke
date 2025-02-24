@@ -1,22 +1,58 @@
-/* Nastavení celé stránky */
+/* Obecné nastavení */
 body {
-    background-image: url("https://www.gamepark.cz/img/pictures/00/12/98/129858.jpg");
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     color: white;
     text-align: center;
-    background: url('stalingrad-bg.jpg') no-repeat center center/cover;
+    background: url('nepritel-pred-branami.jpg') no-repeat center center/cover;
     height: 100vh;
 }
 
-/* Kontejner pro text */
+/* Navigační lišta */
+header {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background: #ffcc00;
+    color: black;
+    border-radius: 5px;
+}
+
+/* Kontejner na text */
 .container {
-    background: rgba(0, 0, 0, 0.6); /* Poloprůhledné pozadí */
-    padding: 50px;
+    background: rgba(0, 0, 0, 0.7); /* Tmavý filtr pro čitelnost */
+    padding: 80px 50px 50px; /* Přidáno místo kvůli navigační liště */
     width: 80%;
     max-width: 800px;
-    margin: auto;
+    margin: 100px auto; /* Aby byl text posunut dolů pod navigaci */
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
@@ -33,7 +69,7 @@ h1 {
     color: #ffcc00;
 }
 
-/* Obsah textu */
+/* Obsah */
 .content {
     text-align: left;
     margin-top: 20px;
@@ -47,22 +83,4 @@ h2 {
 p, ul {
     font-size: 18px;
     line-height: 1.6;
-}
-
-/* Styl pro odkaz zpět */
-.back-button {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 18px;
-    color: white;
-    background: #ff5733;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: 0.3s;
-}
-
-.back-button:hover {
-    background: #ff2a00;
-    
 }
