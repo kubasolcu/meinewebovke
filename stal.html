@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bitva o Stalingrad</title>
-    <link rel="stylesheet" href="stalingrad.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
+    <!-- Navigační lišta -->
     <header>
-        <nav>
-            <ul>
+        <nav class="navbar">
+            <div class="logo">Druhá světová válka</div>
+            <ul class="nav-links">
                 <li><a href="index.html">Domů</a></li>
                 <li><a href="stalingrad.html" class="active">Stalingrad</a></li>
                 <li><a href="bitva_kursk.html">Bitva u Kurska</a></li>
@@ -19,31 +21,35 @@
         </nav>
     </header>
 
-    <div class="container">
-        <h1>Bitva o Stalingrad (1942-1943)</h1>
-        <p class="subtitle">Jedna z nejkrvavějších bitev druhé světové války</p>
-
-        <div class="content">
-            <h2>Krvavý boj o město</h2>
-            <p>
-                Stalingrad se stal symbolem odporu Rudé armády. Každá ulice, každý dům byl bitevním polem. 
-                Sovětští vojáci bojovali v ruinách továren, v kanalizacích i v troskách obytných domů.
-            </p>
-
-            <h2>Extrémní podmínky</h2>
-            <ul>
-                <li>Teploty klesaly pod -30°C</li>
-                <li>Nedostatek jídla donutil vojáky jíst koně i zmražené zásoby</li>
-                <li>Město bylo neustále pod palbou – bombardování zničilo 90 % budov</li>
-            </ul>
-
-            <h2>Obrat ve válce</h2>
-            <p>
-                V listopadu 1942 spustila Rudá armáda Operaci Uran, která obklíčila německé síly. 
-                Generál Paulus kapituloval 2. února 1943 – první velká porážka Wehrmachtu.
-            </p>
+    <!-- Hlavní obsah -->
+    <section class="hero stalingrad-bg">
+        <div class="overlay"></div>
+        <div class="hero-text">
+            <h1>Bitva o Stalingrad (1942-1943)</h1>
+            <p class="subtitle">Jedna z nejkrvavějších bitev druhé světové války</p>
         </div>
-    </div>
+    </section>
+
+    <section class="content">
+        <h2>Krvavý boj o město</h2>
+        <p>
+            Stalingrad se stal symbolem odporu Rudé armády. Každá ulice, každý dům byl bitevním polem. 
+            Sovětští vojáci bojovali v ruinách továren, v kanalizacích i v troskách obytných domů.
+        </p>
+
+        <h2>Extrémní podmínky</h2>
+        <ul>
+            <li>Teploty klesaly pod -30°C</li>
+            <li>Nedostatek jídla donutil vojáky jíst koně i zmražené zásoby</li>
+            <li>Město bylo neustále pod palbou – bombardování zničilo 90 % budov</li>
+        </ul>
+
+        <h2>Obrat ve válce</h2>
+        <p>
+            V listopadu 1942 spustila Rudá armáda Operaci Uran, která obklíčila německé síly. 
+            Generál Paulus kapituloval 2. února 1943 – první velká porážka Wehrmachtu.
+        </p>
+    </section>
 
 </body>
 </html>
