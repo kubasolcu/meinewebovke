@@ -1,0 +1,97 @@
+/* Obecné nastavení navigace */
+nav {
+    background-color: #333;
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* Seznam položek navigace */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Položky navigace vedle sebe */
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* Odkazy v navigaci */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+/* Hover efekt */
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Styl aktivní stránky (volitelné, pokud přidáš class="active") */
+nav ul li a.active {
+    background-color: #777;
+}
+/* Základní nastavení stránky */
+body {
+    font-family: Arial, sans-serif; /* Čitelný font */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Světlé pozadí */
+    color: #333; /* Tmavý text pro dobrou čitelnost */
+    text-align: center; /* Zarovnání obsahu */
+}
+
+/* Hlavní obsah stránky */
+main {
+    max-width: 800px; /* Omezí šířku obsahu pro lepší čitelnost */
+    margin: 20px auto; /* Vycentrování obsahu */
+    padding: 20px;
+    background: white; /* Bílé pozadí pro kontrast */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Lehké stínování */
+    border-radius: 10px; /* Zaoblené rohy */
+}
+
+/* Obrázky */
+img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Hlavička */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+/* Nadpisy */
+h1, h2, h3 {
+    font-weight: bold;
+    color: #222;
+}
+
+/* Odkazy */
+a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Odsazení pro odstavce */
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
