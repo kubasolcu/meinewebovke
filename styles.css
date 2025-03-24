@@ -95,3 +95,12 @@ p {
     line-height: 1.6;
     margin-bottom: 15px;
 }
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
